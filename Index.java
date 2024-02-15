@@ -85,7 +85,7 @@ class TravelAgency
 		return count;
 	}
 }
-public class TravelAgencyApp
+public class Index
 {
 	public static void main(String args[])
 	{
@@ -130,6 +130,7 @@ public class TravelAgencyApp
 				break;
 				case 3:
 					agency.removePassenger();
+					System.out.println("remove passenger from booking");
 				break;
 				case 4:
 					System.out.println("no of passenger in bus : " +agency.getpassengerCount());
